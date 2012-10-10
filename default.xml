@@ -8,6 +8,7 @@
   <project name="poky" path="sources/poky" remote="yocto" revision="denzil"/>
   <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="denzil"/>
 
+  <project remote="oe" revision="denzil" name="openembedded-core" path="sources/openembedded-core"/>
   <project remote="oe" revision="denzil" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="github" revision="master" name="meta-igep" path="sources/meta-igep"/>
