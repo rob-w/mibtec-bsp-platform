@@ -5,16 +5,13 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/rob-w" name="github"/>
 
-  <project name="poky" path="sources/poky" remote="yocto" revision="denzil"/>
-  <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="denzil"/>
+  <project remote="yocto" revision="denzil" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="denzil" name="meta-ti" path="sources/meta-ti" />
 
-  <project remote="oe" revision="denzil" name="openembedded-core" path="sources/openembedded-core"/>
   <project remote="oe" revision="denzil" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="github" revision="master" name="meta-igep" path="sources/meta-igep"/>
-
   <project remote="github" revision="denzil" name="meta-mibtec" path="sources/meta-mibtec"/>
-
   <project remote="github" revision="denzil" name="mibtec-bsp-base" path="sources/base">
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
