@@ -18,6 +18,6 @@ Download the BSP source:
 Once this has complete, you will have all you need. To start a build, do:
 
 $: . ./setup-environment build
-$: bitbake core-image-minimal
+$: bitbake demo-image
 
 You can use any directory to host your build.
