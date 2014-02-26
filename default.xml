@@ -10,6 +10,7 @@
 
   <project remote="oe" revision="dora" name="meta-openembedded" path="sources/meta-openembedded"/>
 
+  <project remote="github" revision="dora" name="meta-igep" path="sources/meta-igep"/>
   <project remote="github" revision="dora" name="meta-mibtec" path="sources/meta-mibtec"/>
   <project remote="github" revision="dora" name="mibtec-bsp-base" path="sources/base">
 	<copyfile dest="setup-environment" src="setup-environment"/>
