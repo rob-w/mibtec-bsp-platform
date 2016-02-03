@@ -10,8 +10,8 @@
 
   <project remote="oe" revision="fido" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="github" revision="fido" name="meta-mibtec" path="sources/meta-mibtec"/>
-  <project remote="github" revision="fido" name="mibtec-bsp-base" path="sources/base">
+  <project remote="github" revision="fido-next" name="meta-mibtec" path="sources/meta-mibtec"/>
+  <project remote="github" revision="fido-next" name="mibtec-bsp-base" path="sources/base">
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
