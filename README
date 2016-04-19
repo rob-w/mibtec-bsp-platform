@@ -1,6 +1,14 @@
 MIBTEC BSP
 ===============================
 
+This Project aims to assist in setting up a Yocto toolchain reference
+for the MIBTEC Hardware Platforms.
+
+"Yocto Project and all related marks and logos are registered trademarks of The Linux Foundation.
+This website is not, in any way, endorsed by the Yocto Project or The Linux Foundation."
+
+For futher information please visit www.yoctoproject.org
+
 
 Prerequisite:
 
