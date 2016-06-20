@@ -9,6 +9,18 @@ This website is not, in any way, endorsed by the Yocto Project or The Linux Foun
 
 For futher information please visit www.yoctoproject.org
 
+This branch is currently tested against:
+
+Yocto :
+https://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?h=fido&id=900d7d6b59c36b2bdbd1c85febec99e80ab54f95
+
+meta-ti:
+https://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=fido&id=42e8f306a9105e858e7190a3683b010c7d236ada
+
+meta-openembedded:
+http://cgit.openembedded.org/meta-openembedded/commit/?h=fido&id=902964a4da26e46018d2a8d17dcdda1ac4627a39
+
+
 
 Prerequisite:
 
