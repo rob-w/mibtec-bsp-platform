@@ -12,14 +12,13 @@ For futher information please visit www.yoctoproject.org
 This branch is currently tested against:
 
 Yocto :
-https://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?h=fido&id=900d7d6b59c36b2bdbd1c85febec99e80ab54f95
+http://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?id=6c1c01392d91f512e2949ad1d57a75a8077478ba
 
 meta-ti:
-https://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=fido&id=42e8f306a9105e858e7190a3683b010c7d236ada
+http://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=krogoth&id=707d948fd0d9f31bea7a4455348dd99335ac65a9
 
 meta-openembedded:
-http://cgit.openembedded.org/meta-openembedded/commit/?h=fido&id=902964a4da26e46018d2a8d17dcdda1ac4627a39
-
+http://cgit.openembedded.org/meta-openembedded/commit/?h=krogoth&id=247b1267bbe95719cd4877d2d3cfbaf2a2f4865a
 
 
 Prerequisite:
@@ -32,7 +31,7 @@ Download the BSP source:
 
  mkdir mibtec-bsp
  cd mibtec-bsp
- repo init -u git://github.com/rob-w/mibtec-bsp-platform -b fido
+ repo init -u git://github.com/rob-w/mibtec-bsp-platform -b krogoth
  repo sync
 
 Once this has complete, you will have all you need. To start a build, do:
