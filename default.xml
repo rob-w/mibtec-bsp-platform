@@ -8,7 +8,7 @@
   <project remote="yocto" revision="6c1c01392d91f512e2949ad1d57a75a8077478ba" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="707d948fd0d9f31bea7a4455348dd99335ac65a9" name="meta-ti" path="sources/meta-ti" />
 
-  <project remote="oe" revision="247b1267bbe95719cd4877d2d3cfbaf2a2f4865a" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="895b25b387cae428c38990f4d2747603ee9dc92d" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="github" revision="krogoth" name="meta-mibtec" path="sources/meta-mibtec"/>
   <project remote="github" revision="krogoth" name="mibtec-bsp-base" path="sources/base">
