@@ -5,13 +5,13 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/rob-w" name="github"/>
 
-  <project remote="yocto" revision="ae9b341ecfcc60e970f29cfe04306411ad26c0cf" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="2a474f9f2cc6972f337f09805f0af17b371033d5" name="meta-ti" path="sources/meta-ti" />
+  <project remote="yocto" revision="morty" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="morty" name="meta-ti" path="sources/meta-ti" />
 
-  <project remote="oe" revision="55c8a76da5dc099a7bc3838495c672140cedb78e" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="morty" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="github" revision="krogoth" name="meta-mibtec" path="sources/meta-mibtec"/>
-  <project remote="github" revision="krogoth" name="mibtec-bsp-base" path="sources/base">
+  <project remote="github" revision="morty-next" name="meta-mibtec" path="sources/meta-mibtec"/>
+  <project remote="github" revision="morty-next" name="mibtec-bsp-base" path="sources/base">
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
