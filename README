@@ -12,14 +12,14 @@ For futher information please visit www.yoctoproject.org
 This branch is currently tested against:
 
 Yocto :
-http://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?id=6a1f33cc40bfac33cf030fe41e1a8efd1e5fad6f
+https://git.yoctoproject.org/cgit/cgit.cgi/poky/tag/?id=rocko-18.0.1
+
 
 meta-ti:
-http://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=krogoth&id=5e46f1e65d81659e3801feddf9dffac29c74c402
+https://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=rocko&id=d5ff22082c6baa39fe0f486faefcd04c9db85458
 
 meta-openembedded:
-http://cgit.openembedded.org/meta-openembedded/commit/?h=krogoth&id=1efa5d623bc64659b57389e50be2568b1355d5f7
-
+http://git.openembedded.org/meta-openembedded/commit/?h=rocko&id=a65c1acb1822966c3553de9fc98d8bb6be705c4e
 
 Prerequisite:
 
@@ -31,13 +31,13 @@ Download the BSP source:
 
  mkdir mibtec-bsp
  cd mibtec-bsp
- repo init -u git://github.com/rob-w/mibtec-bsp-platform -b morty-next
+ repo init -u git://github.com/rob-w/mibtec-bsp-platform -b rocko-next
  repo sync
 
 Once this has complete, you will have all you need. To start a build, do:
 
  source setup-environment build
- bitbake demo-image
+ bitbake demo-wayland-image
 
 You can use any directory to host your build.
 
