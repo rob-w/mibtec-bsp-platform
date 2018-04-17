@@ -12,14 +12,13 @@ For futher information please visit www.yoctoproject.org
 This branch is currently tested against:
 
 Yocto :
-http://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?id=6a1f33cc40bfac33cf030fe41e1a8efd1e5fad6f
+https://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?h=morty&id=0e730770a9529f2a0b3219efcc1de7e8842105e8
 
 meta-ti:
-http://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=krogoth&id=5e46f1e65d81659e3801feddf9dffac29c74c402
+http://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?id=6a1f33cc40bfac33cf030fe41e1a8efd1e5fad6f
 
 meta-openembedded:
-http://cgit.openembedded.org/meta-openembedded/commit/?h=krogoth&id=1efa5d623bc64659b57389e50be2568b1355d5f7
-
+http://git.openembedded.org/meta-openembedded/commit/?h=morty&id=b40116cf457b88a2db14b86fda9627fb34d56ae6
 
 Prerequisite:
 
@@ -37,7 +36,7 @@ Download the BSP source:
 Once this has complete, you will have all you need. To start a build, do:
 
  source setup-environment build
- bitbake demo-image
+ bitbake demo-wayland-image
 
 You can use any directory to host your build.
 
