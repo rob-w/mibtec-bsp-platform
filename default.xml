@@ -5,10 +5,10 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/rob-w" name="github"/>
 
-  <project remote="yocto" revision="4a9d4991d081907dc971bcd737740fafb24ad904" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="d5ff22082c6baa39fe0f486faefcd04c9db85458" name="meta-ti" path="sources/meta-ti" />
+  <project remote="yocto" revision="7e7ee662f5dea4d090293045f7498093322802cc" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="1663002a40fe8f0f173ff8f3bb907a77d17e95a6" name="meta-ti" path="sources/meta-ti" />
 
-  <project remote="oe" revision="a65c1acb1822966c3553de9fc98d8bb6be705c4e" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="37967410b35de588cae1c12b62f1e68c24810edd" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="github" revision="rocko-next" name="meta-mibtec" path="sources/meta-mibtec"/>
   <project remote="github" revision="rocko-next" name="mibtec-bsp-base" path="sources/base">

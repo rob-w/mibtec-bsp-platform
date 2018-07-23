@@ -12,11 +12,11 @@ For futher information please visit www.yoctoproject.org
 This branch is currently tested against:
 
 Yocto :
-https://git.yoctoproject.org/cgit/cgit.cgi/poky/tag/?id=rocko-18.0.1
+https://git.yoctoproject.org/cgit/cgit.cgi/poky/tag/?id=rocko-18.0.3
 
 
 meta-ti:
-https://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=rocko&id=d5ff22082c6baa39fe0f486faefcd04c9db85458
+https://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=rocko&id=1663002a40fe8f0f173ff8f3bb907a77d17e95a6
 
 meta-openembedded:
 http://git.openembedded.org/meta-openembedded/commit/?h=rocko&id=a65c1acb1822966c3553de9fc98d8bb6be705c4e
