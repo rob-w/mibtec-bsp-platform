@@ -12,7 +12,7 @@ For futher information please visit www.yoctoproject.org
 This branch is currently tested against:
 
 Yocto :
-https://git.yoctoproject.org/cgit/cgit.cgi/poky/tag/?id=rocko-18.0.3
+https://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?h=rocko-18.0.3&id=7e7ee662f5dea4d090293045f7498093322802cc
 
 meta-ti:
 http://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=ti2018.02&id=7703930b5b63390c4ba6608a1449a971c87963c2
