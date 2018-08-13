@@ -15,7 +15,7 @@ Yocto :
 https://git.yoctoproject.org/cgit/cgit.cgi/poky/tag/?id=rocko-18.0.3
 
 meta-ti:
-http://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/tag/?h=ti2018.02
+http://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=ti2018.02&id=7703930b5b63390c4ba6608a1449a971c87963c2
 
 meta-openembedded:
 http://git.openembedded.org/meta-openembedded/commit/?h=rocko&id=352531015014d1957d6444d114f4451e241c4d23
