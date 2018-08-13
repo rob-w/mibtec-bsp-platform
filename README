@@ -14,12 +14,11 @@ This branch is currently tested against:
 Yocto :
 https://git.yoctoproject.org/cgit/cgit.cgi/poky/tag/?id=rocko-18.0.3
 
-
 meta-ti:
-https://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=rocko&id=1663002a40fe8f0f173ff8f3bb907a77d17e95a6
+http://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/tag/?h=ti2018.02
 
 meta-openembedded:
-http://git.openembedded.org/meta-openembedded/commit/?h=rocko&id=a65c1acb1822966c3553de9fc98d8bb6be705c4e
+http://git.openembedded.org/meta-openembedded/commit/?h=rocko&id=352531015014d1957d6444d114f4451e241c4d23
 
 Prerequisite:
 
