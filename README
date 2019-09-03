@@ -30,7 +30,7 @@ Download the BSP source:
 
  mkdir mibtec-bsp
  cd mibtec-bsp
- repo init -u git://github.com/rob-w/mibtec-bsp-platform -b rocko-next
+ repo init -u git://github.com/rob-w/mibtec-bsp-platform -b thud-next
  repo sync
 
 Once this has complete, you will have all you need. To start a build, do:
