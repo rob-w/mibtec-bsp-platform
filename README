@@ -20,11 +20,6 @@ http://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=thud-next&id=796010e
 meta-openembedded:
 http://git.openembedded.org/meta-openembedded/commit/?h=thud-next&id=446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93
 
-Prerequisite:
-
-For Mint17 Vanilla installation:
- sudo apt-get install g++ texinfo libsdl1.2-dev chrpath phablet-tools
-
 
 Download the BSP source:
 
@@ -36,7 +31,7 @@ Download the BSP source:
 Once this has complete, you will have all you need. To start a build, do:
 
  source setup-environment build
- bitbake demo-wayland-image
+ bitbake demo-image
 
 You can use any directory to host your build.
 
