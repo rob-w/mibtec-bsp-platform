@@ -5,13 +5,13 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/rob-w" name="github"/>
 
-  <project remote="yocto" revision="41c62e802afa40faa8fba9b7619fac0c50c0776b" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="796010e9e2d22c43126167fe1aec25e639113187" name="meta-ti" path="sources/meta-ti" />
+  <project remote="yocto" revision="10763296f84b8b1292d1dbaaac8e682592388d1b" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="e287e588bb7cad17474bbfe4556b12081cc755c3" name="meta-ti" path="sources/meta-ti" />
 
-  <project remote="oe" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="7bd47ef6c98323c95a9e527129dca98c9a65ee08" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="github" revision="thud-next" name="meta-mibtec" path="sources/meta-mibtec"/>
-  <project remote="github" revision="thud-next" name="mibtec-bsp-base" path="sources/base">
+  <project remote="github" revision="dunfell-next" name="meta-mibtec" path="sources/meta-mibtec"/>
+  <project remote="github" revision="dunfell-next" name="mibtec-bsp-base" path="sources/base">
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
