@@ -12,20 +12,19 @@ For futher information please visit www.yoctoproject.org
 This branch is currently tested against:
 
 Yocto :
-https://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?h=thud-next&id=41c62e802afa40faa8fba9b7619fac0c50c0776b
+http://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?h=dunfell&id=10763296f84b8b1292d1dbaaac8e682592388d1b
 
 meta-ti:
-http://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=thud-next&id=796010e9e2d22c43126167fe1aec25e639113187
+https://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=dunfell&id=e287e588bb7cad17474bbfe4556b12081cc755c3
 
 meta-openembedded:
-http://git.openembedded.org/meta-openembedded/commit/?h=thud-next&id=446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93
-
+https://github.com/openembedded/meta-openembedded/commit/7bd47ef6c98323c95a9e527129dca98c9a65ee08
 
 Download the BSP source:
 
  mkdir mibtec-bsp
  cd mibtec-bsp
- repo init -u git://github.com/rob-w/mibtec-bsp-platform -b thud-next
+ repo init -u git://github.com/rob-w/mibtec-bsp-platform -b dunfell-next
  repo sync
 
 Once this has complete, you will have all you need. To start a build, do:
