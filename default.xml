@@ -6,7 +6,8 @@
   <remote fetch="git://github.com/rob-w" name="github"/>
 
   <project remote="yocto" revision="10763296f84b8b1292d1dbaaac8e682592388d1b" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="e287e588bb7cad17474bbfe4556b12081cc755c3" name="meta-ti" path="sources/meta-ti" />
+  <project remote="yocto" revision="e287e588bb7cad17474bbfe4556b12081cc755c3" name="meta-ti" path="sources/meta-ti"/>
+  <project remote="yocto" revision="b79b9122e0dc66ca03542f82ff4fa8eb05174f61" name"meta-arm" path="sources/meta-arm"/>
 
   <project remote="oe" revision="7bd47ef6c98323c95a9e527129dca98c9a65ee08" name="meta-openembedded" path="sources/meta-openembedded"/>
 
