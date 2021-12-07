@@ -15,7 +15,7 @@ Yocto :
 https://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?h=thud-next&id=41c62e802afa40faa8fba9b7619fac0c50c0776b
 
 meta-ti:
-http://git.yoctoproject.org/cgit/cgit.cgi/meta-ti/commit/?h=thud-next&id=796010e9e2d22c43126167fe1aec25e639113187
+https://git.yoctoproject.org/meta-ti/commit/?h=thud&id=b27317ab4f9be931a66344ca502c7e3f4ec780e5
 
 meta-openembedded:
 http://git.openembedded.org/meta-openembedded/commit/?h=thud-next&id=446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93

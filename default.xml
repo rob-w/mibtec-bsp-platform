@@ -6,7 +6,7 @@
   <remote fetch="git://github.com/rob-w" name="github"/>
 
   <project remote="yocto" revision="41c62e802afa40faa8fba9b7619fac0c50c0776b" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="796010e9e2d22c43126167fe1aec25e639113187" name="meta-ti" path="sources/meta-ti" />
+  <project remote="yocto" revision="b27317ab4f9be931a66344ca502c7e3f4ec780e5" name="meta-ti" path="sources/meta-ti" />
 
   <project remote="oe" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" name="meta-openembedded" path="sources/meta-openembedded"/>
 
