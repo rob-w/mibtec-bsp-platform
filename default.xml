@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-  <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="git://github.com/rob-w" name="github"/>
+  <remote fetch="https://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="https://git.openembedded.org" name="oe"/>
+  <remote fetch="https://github.com/rob-w" name="github"/>
 
   <project remote="yocto" revision="10763296f84b8b1292d1dbaaac8e682592388d1b" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="e287e588bb7cad17474bbfe4556b12081cc755c3" name="meta-ti" path="sources/meta-ti"/>
