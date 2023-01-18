@@ -6,6 +6,7 @@
 
 	<project remote="yocto" revision="0118853b5bc6402cc8e43be54cd62520f6c19c62" name="poky" path="sources/poky"/>
 	<project remote="yocto" revision="2a5a0339d5bd28d6f6aedaf02a6aaa9b73a248e4" name="meta-ti" path="sources/meta-ti" />
+	<project remote="yocto" revision="904f8e82c2772986fad500af4f72f5211a7ff831" name="meta-arm" path="sources/meta-arm" />
 
 	<project remote="oe" revision="29a2410f75a483bbaa5520aa2cdc24aba3b726b6" name="meta-openembedded" path="sources/meta-openembedded"/>
 
