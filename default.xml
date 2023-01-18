@@ -12,4 +12,6 @@
 	<project remote="github" revision="kirkstone-next" name="meta-mibtec" path="sources/meta-mibtec"/>
 	<project remote="github" revision="kirkstone-next" name="mibtec-bsp-base" path="sources/base">
 	<copyfile dest="setup-environment" src="setup-environment"/>
+	</project>
+
 </manifest>
