@@ -27,7 +27,7 @@ Download the BSP source:
 
  mkdir mibtec-bsp
  cd mibtec-bsp
- repo init -u https://github.com/rob-w/mibtec-bsp-platform -b kirkstone-next
+ repo init -u https://github.com/rob-w/mibtec-bsp-platform -b scarthgap
  repo sync
 
 Once this has complete, you will have all you need. To start a build, do:
