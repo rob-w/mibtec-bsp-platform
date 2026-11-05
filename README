@@ -9,19 +9,6 @@ This website is not, in any way, endorsed by the Yocto Project or The Linux Foun
 
 For futher information please visit www.yoctoproject.org
 
-This branch is currently tested against:
-
-Yocto :
-https://git.yoctoproject.org/poky/commit/?h=kirkstone&id=0118853b5bc6402cc8e43be54cd62520f6c19c62
-
-meta-arm:
-https://git.yoctoproject.org/meta-arm/commit/?h=kirkstone&id=904f8e82c2772986fad500af4f72f5211a7ff831
-
-meta-ti:
-https://git.yoctoproject.org/meta-ti/commit/?h=kirkstone-next&id=2a5a0339d5bd28d6f6aedaf02a6aaa9b73a248e4
-
-meta-openembedded:
-http://git.openembedded.org/meta-openembedded/commit/?h=kirkstone-next&id=29a2410f75a483bbaa5520aa2cdc24aba3b726b6
 
 Download the BSP source:
 
