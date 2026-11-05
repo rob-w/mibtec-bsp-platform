@@ -3,7 +3,7 @@
 	<remote fetch="https://git.yoctoproject.org" name="yocto"/>
 	<remote fetch="https://git.openembedded.org" name="oe"/>
 	<remote fetch="https://github.com/rob-w" name="github-robw"/>
-	<remote fetch="https://github.com/savoirfairelinux" name="cyclonedx"/>
+	<remote fetch="https://github.com/iris-GmbH" name="cyclonedx"/>
 	<remote fetch="https://github.com/agherzan" name="raspberrypi"/>
 	<remote fetch="https://github.com/embetrix" name="pi-secure"/>
 
