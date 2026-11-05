@@ -2,16 +2,24 @@
 <manifest>
 	<remote fetch="https://git.yoctoproject.org" name="yocto"/>
 	<remote fetch="https://git.openembedded.org" name="oe"/>
-	<remote fetch="https://github.com/rob-w" name="github"/>
+	<remote fetch="https://github.com/rob-w" name="github-robw"/>
+	<remote fetch="https://github.com/savoirfairelinux" name="cyclonedx"/>
+	<remote fetch="https://github.com/agherzan" name="raspberrypi"/>
+	<remote fetch="https://github.com/embetrix" name="pi-secure"/>
 
 	<project remote="yocto" revision="2a6862e7ed4cb2f030f6341458df61282bf8a5ca" name="poky" path="sources/poky"/>
 	<project remote="yocto" revision="760bcd6af8cb13cf9c56c460e4dd0fdba6ea5b79" name="meta-ti" path="sources/meta-ti" />
 	<project remote="yocto" revision="0a4b911d9fd63ab29c4532a907fae3282dbdcfe4" name="meta-arm" path="sources/meta-arm" />
-
 	<project remote="oe" revision="2db6aece32c7f8ebf6015b468e1b4e21de072e3b" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-	<project remote="github" revision="scarthgap" name="meta-mibtec" path="sources/meta-mibtec"/>
-	<project remote="github" revision="scarthgap" name="mibtec-bsp-base" path="sources/base">
+	<project remote="cyclonedx" revision="scarthgap" name="meta-cyclonedx" path="sources/meta-cyclonedx"/>
+
+	<project remote="raspberrypi" revision="scarthgap" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+	<project remote="pi-secure" revision="scarthgap" name="meta-raspberrypi-secure" path="sources/meta-raspberrypi-secure"/>
+
+	<project remote="github-robw" revision="scarthgap" name="meta-mibtec" path="sources/meta-mibtec"/>
+	<project remote="github-robw" revision="scarthgap" name="mibtec-bsp-base" path="sources/base">
+
 	<copyfile dest="setup-environment" src="setup-environment"/>
 	</project>
 
